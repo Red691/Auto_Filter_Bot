@@ -61,7 +61,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group lin
 
 # FORCE_SUB 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002716491516 -1002463907537 -1003639224538 -1002942665973")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
-auth_channels     = environ.get("AUTH_CHANNELS", "")# Channels for force sub (make sure bot is admin)
+auth_channels     = environ.get("AUTH_CHANNELS", "-1002716491516 -1002463907537 -1003639224538 -1002942665973")# Channels for force sub (make sure bot is admin)
 
 # ============================
 # Payment Configuration
