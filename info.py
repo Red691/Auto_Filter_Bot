@@ -18,8 +18,8 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'sensei')   # Session name for the bot
-API_ID = int(environ.get('API_ID', '20594537')) # API ID from my.telegram.org
-API_HASH = environ.get('API_HASH', 'c505a4e5bb7d482197875888af544f17')  # API Hash from my.telegram.org
+API_ID = int(environ.get('API_ID', '')) # API ID from my.telegram.org
+API_HASH = environ.get('API_HASH', '')  # API Hash from my.telegram.org
 BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
 
 # ============================
@@ -83,7 +83,7 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://reelcraft99:reelcraft99reelcraft@cluster0.f0sv73o.mongodb.net/?appName=Cluster0")  # MongoDB URI for the database
+DATABASE_URI = environ.get('DATABASE_URI', "0")  # MongoDB URI for the database
 DATABASE_NAME = environ.get('DATABASE_NAME', "Movietest") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files') # Collection name (default: dreamcinezone_files)
 
@@ -115,7 +115,7 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+ndqncL_lSTlmYjA1")   # Sec
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+ndqncL_lSTlmYjA1")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "12d3a3eded5809bc72fb3367fa852a3e02756d2f") # Shortener API key
+SHORTENER_API = environ.get("SHORTENER_API", "") # Shortener API key
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com") # Shortener website
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "None")  # Shortener API key for second website
